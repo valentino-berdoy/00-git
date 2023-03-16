@@ -1,4 +1,4 @@
-# mamadefede
+# 00-git
 # Primeros pasos con git
 
 ## Comandos
