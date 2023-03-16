@@ -2,7 +2,7 @@
 # Primeros pasos con git
 
 ## Comandos
-
+```bash
 git init    #inicio el proyecto de git (1 sola)
 
 git status        #me muestra el estado actual del trabajo
@@ -22,6 +22,10 @@ git log            #permite ver el registro de commits (fecha, autor, commit mes
 
 git push    #subo mis nuevos commit a la nube
 
+git clone "url"
+
+git pull #actualiza el repositorio
+```
 
 ## .gitignore
 Es un archivo que va en la misma carpeta donde arranca el proyecto (ubicación raíz)
