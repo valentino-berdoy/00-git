@@ -25,6 +25,9 @@ git push    #subo mis nuevos commit a la nube
 git clone "url"
 
 git pull #actualiza el repositorio
+
+git checkout -b nombreDelaRama #cambia de rama en el repositorio
+                               #hay que hacer git add y git commit -m para crear un commit en esta rama
 ```
 
 ## .gitignore
