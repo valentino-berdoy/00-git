@@ -28,9 +28,19 @@ git pull #actualiza el repositorio
 
 git checkout -b nombreDelaRama #cambia de rama en el repositorio
                                #hay que hacer git add y git commit -m para crear un commit en esta rama
+
+git checkout RAMA #va hacia la rama que le decis
+
+git difftool Y diff RAMA #permiten mostrar la diferencia entre dos ramas (entre la que estoy parada y otra que mencione)
+
+git merge RAMAQUETRAIGO #trae la rama que seleccione hacia la que estoy parado
 ```
 
 ## .gitignore
 Es un archivo que va en la misma carpeta donde arranca el proyecto (ubicación raíz)
 Permite aclarar qué archivos quiero que mantenga fuera del control de git
 Se pueden usar comodines (*.pdf), una instrucción por línea
+
+## ramas/branches
+
+Una rama me permite trabajar en paralelo al trabajo que ya tenía. Puedo crear todas las ramas que necesite, la rama por defecto se llama `master`
